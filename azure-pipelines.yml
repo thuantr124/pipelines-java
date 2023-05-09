@@ -13,7 +13,7 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  name: test0
+  name: Default
   demands: Limit -equals DisAbleParallel
 
 steps:
