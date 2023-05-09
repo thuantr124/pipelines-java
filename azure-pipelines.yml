@@ -7,6 +7,9 @@ trigger:
 - main
 
 pool:
+  name: {agent pool name}
+  demands: Limit -equals DisAbleParallel 
+
   vmImage: ubuntu-latest
 
 steps:
