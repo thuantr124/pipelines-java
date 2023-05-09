@@ -13,6 +13,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+  name: test0
+  demands: Limit -equals DisAbleParallel
 
 steps:
 - task: Maven@3
